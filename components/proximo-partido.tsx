@@ -8,9 +8,9 @@ import { Calendar, Clock, MapPin } from "lucide-react"
 
 export default function ProximoPartido() {
   const [proximoPartido, setProximoPartido] = useState({
-    fecha: "2025-03-26",
-    hora: "18:00",
-    lugar: "Estadio Municipal",
+    fecha: "2025-03-25",
+    hora: "21:00",
+    lugar: "Estadio Honor y Patria",
     equipoLocal: "Equipo A",
     equipoVisitante: "Equipo B",
   })

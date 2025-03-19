@@ -14,7 +14,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between py-4">
           <div className="flex items-center gap-2">
             <Trophy className="h-6 w-6" />
-            <h1 className="text-xl font-bold">Rastreador de Partidos</h1>
+            <h1 className="text-xl font-bold">Futbol de los martes</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#proximo" className="text-sm font-medium hover:underline underline-offset-4">
@@ -74,7 +74,7 @@ export default function Home() {
       <footer className="border-t py-6">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            &copy; {new Date().getFullYear()} Rastreador de Partidos. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Rastreador de Partidos hecho por ELEMA. Todos los derechos reservados.
           </p>
           <div className="flex gap-4">
             <Link href="#" className="text-sm text-muted-foreground hover:underline">
